@@ -58,7 +58,7 @@
 			children = (
 				F5FB8363209C5B940040A02F /* AppDelegate.swift */,
 				F5FB8379209C809C0040A02F /* Controllers */,
-				F5FB8377209C80730040A02F /* DataModel */,
+				F5FB8377209C80730040A02F /* Data Model */,
 				F5FB837A209C80AB0040A02F /* Views */,
 				F5FB837B209C80B70040A02F /* Supporting Files */,
 				F5FB836F209C5B940040A02F /* Info.plist */,
@@ -66,12 +66,12 @@
 			path = Todoey;
 			sourceTree = "<group>";
 		};
-		F5FB8377209C80730040A02F /* DataModel */ = {
+		F5FB8377209C80730040A02F /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
 				F5FB8375209C80190040A02F /* Item.swift */,
 			);
-			path = DataModel;
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 		F5FB8379209C809C0040A02F /* Controllers */ = {
