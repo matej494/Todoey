@@ -45,13 +45,15 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Items" id="Hnp-ng-iAl">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gL8-NV-F1z">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="Wms-fO-VGw" id="h0K-yB-m69"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="searchBar" destination="s8y-SU-DtF" id="2o3-Vk-zXQ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfz-eu-6aJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,8 +107,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7uW-gP-Zfs" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QgP-zA-hUJ">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="QgP-zA-hUJ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.54650545120239258" green="0.36874294281005859" blue="0.91076141595840454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
